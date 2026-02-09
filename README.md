@@ -1,6 +1,6 @@
 # Embedded C Labs Portfolio
 
-A collection of labs in C language using Raspberry Pi Pico implementing communication protocols such as UART, I2C using interrupt handlers, controlling stepper motor and LEDs.
+A collection of C language labs using the Raspberry Pi Pico, implementing communication protocols such as UART, I2C, and handling peripherals like LEDs and stepper motors.
 
 # Contents
 
@@ -12,9 +12,8 @@ A collection of labs in C language using Raspberry Pi Pico implementing communic
 
 ## Highlights
 
-- Implemented LED blinking program using debounce mechanism and Pulse Width Modulation.
-- Learned how to use interrupt handlers for asynchronous handling of LED logic.
-- Developed firmware for rotation and calibration of stepper motor.
-- Established wireless comunication with LoRaWAN module using UART protocol.
-- Designed firmware for writing and reading log messages from EEPROM memory using I2C protocol.
-
+- Implemented LED blinking using a debounce mechanism and Pulse Width Modulation (PWM)  
+- Learned to use interrupt handlers for asynchronous LED control  
+- Developed firmware for rotation and calibration of a stepper motor  
+- Established wireless communication with a LoRaWAN module using UART  
+- Designed firmware for writing and reading log messages from EEPROM using I2C
